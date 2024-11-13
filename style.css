@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 30%;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(97, 78, 201, 0.541);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+#guess{
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#btn{
+    background-color: #185ADB;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+@media all and (max-width: 800px){
+    #guess{
+        width: 80px;
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 500px){
+    #guess{
+        width: 150px;
+    }
+}
